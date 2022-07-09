@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<style type="text/css">
+		.chapter-item-remove{
+			cursor: pointer;
+		}
+	</style>
+	<title>Chepter</title>
+</head>
+<body class="container mt-3">
+	<section id="course_chapter">
+		<div class="my-3"><h3>Create Chepters</h3></div>
+		<div class="input-group ">
+			<input type="text" name="course_chepter_name" class="form-control my-2 course-chepter" placeholder="Please Write The Chpeter Name" /><span class="text-success m-2" onclick="delete_chapter_input()">Defauld</span>
+		</div>
+	</section>
+	<div class="py-3">
+		<button id="add_chapter" class="btn btn-info mr-3">Add Another Chapter</button>
+		<button id="save_chapter" class="btn btn-success">Save</button>
+	</div>
+	<script type="text/javascript" src="fun.js"></script>
+</body>
+</html>
